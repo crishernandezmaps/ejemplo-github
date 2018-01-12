@@ -38,10 +38,10 @@
           .container("#viz")
           .data(data)
           .type("bubbles") // Escoge el tipo de visualizacion
-          .id(["", ""]) // Escoge la agrupación y el nombre del nodo
+          .id(["cluster", "label"]) // Escoge la agrupación y el nombre del nodo
           .depth(1) // cuantos niveles o grupos dentro de otro grupo
-          .size("") // peso o tamaño de los nodos
-          .color("") // color de cada cluster
+          .size("label") // peso o tamaño de los nodos
+          .color("size") // color de cada cluster
           .draw()
 
           //// Sugerencia
